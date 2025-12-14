@@ -1,0 +1,1 @@
+SoulseekCleanerCli – initial placeholder
