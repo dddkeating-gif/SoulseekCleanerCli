@@ -1,8 +1,3 @@
-ject.toml
-New
-+17
--0
-
 [project]
 name = "soulseek-cleaner-cli"
 version = "0.1.0"
