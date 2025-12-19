@@ -1,0 +1,22 @@
+ject.toml
+New
++17
+-0
+
+[project]
+name = "soulseek-cleaner-cli"
+version = "0.1.0"
+description = "Command-line helper for cleaning up incomplete Soulseek downloads"
+authors = [{name = "Soulseek Cleaner"}]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+soulseek-cleaner = "soulseek_cleaner.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
